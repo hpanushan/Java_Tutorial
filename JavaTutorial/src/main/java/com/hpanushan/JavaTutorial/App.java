@@ -8,7 +8,7 @@ public class App
     {
     	Display ds = new Display();
     	ds.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);	// How to close the window
-    	ds.setSize(700,700);		// Set window size
+    	ds.setSize(400,100);		// Set window size
     	ds.setVisible(true);
     }
     
