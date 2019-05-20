@@ -1,13 +1,13 @@
 package com.hpanushan.JavaTutorial;
 
-/**
- * Hello world!
- *
- */
+import com.hpanushan.test.TestClass;;
+
 public class App 
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+    	
+    	TestClass tc = new TestClass();
+        System.out.println( summation(12, 12) );
     }
 }
