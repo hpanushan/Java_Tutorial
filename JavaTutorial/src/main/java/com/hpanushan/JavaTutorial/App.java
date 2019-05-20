@@ -1,14 +1,15 @@
 package com.hpanushan.JavaTutorial;
 
+import javax.swing.JFrame;
+
 public class App 
 {
     public static void main( String[] args )
     {
-    	// Object decleration
-    	TimeClass tc = new TimeClass();
-    	tc.setTime(36, 59, 56);
-    	System.out.println(tc.toNormlaTime());
-    	
+    	Display ds = new Display();
+    	ds.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);	// How to close the window
+    	ds.setSize(700,700);		// Set window size
+    	ds.setVisible(true);
     }
     
 }
