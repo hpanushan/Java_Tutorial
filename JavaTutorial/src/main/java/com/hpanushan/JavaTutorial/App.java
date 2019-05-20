@@ -6,8 +6,8 @@ public class App
     {
     	// Object decleration
     	TimeClass tc = new TimeClass();
-    	tc.setTime(2, 23, 56);
-    	System.out.println(tc.toMilitaryTime());
+    	tc.setTime(36, 59, 56);
+    	System.out.println(tc.toNormlaTime());
     	
     }
     
