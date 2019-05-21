@@ -1,13 +1,19 @@
 package com.hpanushan.JavaTutorial;
 
-/**
- * Hello world!
- *
- */
 public class App 
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+    	// Polymorphism array
+        Food[] arr = new Food[2];
+        
+        //Assigning values to array
+        arr[0] = new Cake();
+        arr[1] = new Pizza();
+        
+        for(int i=0;i<arr.length;i++) {
+        	arr[i].eat();
+        }
+        
     }
 }
