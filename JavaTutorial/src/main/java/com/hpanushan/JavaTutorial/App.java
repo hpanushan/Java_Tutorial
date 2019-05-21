@@ -4,16 +4,12 @@ public class App
 {
     public static void main( String[] args )
     {
-    	// Polymorphism array
-        Food[] arr = new Food[2];
-        
-        //Assigning values to array
-        arr[0] = new Cake();
-        arr[1] = new Pizza();
-        
-        for(int i=0;i<arr.length;i++) {
-        	arr[i].eat();
-        }
+    	Fatty ob = new Fatty();
+    	
+    	Cake c = new Cake();
+    	ob.digest(c);		// This method can get any sub class object as argument
+    	Pizza p = new Pizza();
+    	ob.digest(p);		// This method can get any sub class object as argument
         
     }
 }
