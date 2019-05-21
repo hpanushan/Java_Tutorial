@@ -1,8 +1,9 @@
 package com.hpanushan.JavaTutorial;
 
-public class Food {
+// Creating abstract class
+public abstract class Food {
 
-	public void eat(int i) { // Overloading
+	public void eat() { 
 		System.out.println("Great food!!!");
 	}
 }
