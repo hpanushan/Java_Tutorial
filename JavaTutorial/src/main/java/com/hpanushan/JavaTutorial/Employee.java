@@ -10,7 +10,17 @@ public class Employee {
 		this.fname = fn;
 		this.lname = ln;
 		member++;
-		System.out.printf("%s %s is the %s member.\n", fname,lname,member);
+	}
+	
+	public String getFname() {
+		return fname;
 	}
 
+	public String getLname() {
+		return lname;
+	}
+	
+	public static int getMember() {
+		return member;
+	}
 }
