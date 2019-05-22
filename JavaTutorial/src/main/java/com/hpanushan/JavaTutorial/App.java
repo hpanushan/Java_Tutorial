@@ -4,16 +4,10 @@ public class App
 {
     public static void main( String[] args )
     {
-    	
-    	AnimalList alo = new AnimalList();
-    	
-    	// Creating objects
-    	Fish obj1 = new Fish();
-    	Dog obj2 = new Dog();
-    	
-    	// Adding different objects to same array
-    	alo.add(obj1);
-    	alo.add(obj2);
+    	// Craeting first object
+    	Employee member1 = new Employee("Anushan","Ramesh");
+    	// Creating second object
+    	Employee member2 = new Employee("Nimesh","Buwenaka");
     	
     }
     
