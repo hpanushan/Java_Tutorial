@@ -5,11 +5,15 @@ public class App
     public static void main( String[] args )
     {
     	
-    	DogList dlo = new DogList();
-    	Dog d1 = new Dog();
+    	AnimalList alo = new AnimalList();
     	
-    	// Adding objects
-    	dlo.add(d1);
+    	// Creating objects
+    	Fish obj1 = new Fish();
+    	Dog obj2 = new Dog();
+    	
+    	// Adding different objects to same array
+    	alo.add(obj1);
+    	alo.add(obj2);
     	
     }
     
